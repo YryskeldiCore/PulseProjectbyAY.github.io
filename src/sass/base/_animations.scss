@@ -1,0 +1,16 @@
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+        animation-timing-function: ease;
+    }
+    50% {
+        transform: scale(1.25);
+        animation-timing-function: ease-in-out;
+    }
+    to {
+        transform: scale(1.5);
+        animation-timing-function: ease-out;
+    }
+}
+
+

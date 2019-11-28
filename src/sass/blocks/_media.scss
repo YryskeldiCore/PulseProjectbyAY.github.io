@@ -1,0 +1,408 @@
+@media (max-width:991px){
+    .advantages {
+        padding: 35px 0 80px 0;
+        &__subtitle {
+            margin-top: 25px;
+            font-size: 19px;
+        }
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__item {
+            max-width: 230px;
+        }
+    }
+    .promo {
+        padding: 21px 0 53px 0;
+        &__header {
+            font-size: 40px;
+            display: block;
+            margin: 0 auto;
+        }
+        &__subheader {
+            display: block;
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+        &__icons {
+            margin: 0 auto;
+            margin-top: 35px;
+        }
+        &__link {
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+    }
+    .button {
+        &_main {
+            margin: 0 auto;
+            margin-top: 40px;
+        }        
+    }
+    .container {
+        max-width: 707px;
+    }
+    .carousel {
+        &__inner{
+            width: 90%;
+            img {
+                width: 100%;
+            }
+        }
+        .slick-prev, .slick-next  {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -66px;
+            img {
+                width: 31px;
+                height: 50px;
+            }
+        }
+        .slick-next  {
+            right: -66px;
+            left: auto;
+        }
+    }
+    .catalog {
+        &__content {
+            margin-top: 60px;
+            display: none;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            &_active {
+                display: flex;
+            }
+        }
+    }
+    .footer {
+        &__info {
+            width: 42%;
+            padding: 40px 60px 29px 60px;
+        }
+        &__social {
+            &-item {
+                margin: 0 7px;
+            }
+        }
+    }
+}
+@media (max-width:767px){
+    .container {
+        max-width: 507px;
+    }
+    .advantages{
+        padding: 40px 0;
+        &__subtitle {
+            text-align: center;
+        }
+        &__icon {
+            height: 55px;
+        }
+        &__item {
+            margin-right: 10px;
+        }
+        &__descr {
+            &_767px {
+                margin-top: 46px;
+            }
+        }
+    }
+    .consultation {
+        padding: 70px 0;
+    }
+    .header {
+        &__official{
+            font-size: 11px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+        }
+        &__logo {
+            width: 200px;
+            img {
+                width: 98%;
+                height: 100%;
+            }
+        }
+        &__contacts {
+            button {
+                width: 160px;
+                height: 40px;
+            }
+        }
+    }
+    .promo {
+        min-height: 570px;
+        &__header {
+            font-size: 40px;
+            line-height: 30px;
+            }
+        &__subheader {
+            font-size: 20px;
+            margin-top: 15px;
+        }
+    }
+
+    .carousel {
+        &__inner{
+            width: 88%;
+        }
+    }
+    .footer {
+        &__address {
+            margin-bottom: 25px;
+        }
+        &__phone {
+            margin-bottom: 25px;
+        }
+        &__info {
+            padding: 29px 40px;
+        }
+    }
+    .catalog {
+        padding-bottom: 50px;
+        &__tabs {
+            margin-top: 30px;
+        }
+    }
+}
+@media (max-width:575px){
+    .container {
+        max-width: 415px;
+        margin: 0 55px;
+    }
+    .promo {
+        &__header {
+            font-size: 34px;
+            line-height: 34px;
+            text-align: center;
+            
+            &__logo{
+                width: 80%;
+            }
+            &__phone {
+                font-size: 18px;
+            }
+        }
+        &__subheader {
+            text-align: center;
+        }
+        &__icon {
+             width: 90px; ;
+         }   
+        &__icons {
+             width: 300px;
+            }
+    }
+    .carousel {
+        &__inner{
+            width: 80%;
+        }
+    }
+    .header {
+        flex-wrap: wrap;
+        &__contacts {
+            button {
+                display: none;
+            }
+        }
+        &__phone {
+            font-size: 18px;
+        }
+        &__official {
+            margin-top: 10px;
+            font-size: 10px;
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .advantages {
+        &__descr {
+            &_575px3 {
+                margin-top: 55px;
+            }
+            &_575px1{
+                margin-top: 25px;
+            }
+        }
+        &__item {
+            margin-right: 0;
+        }
+        &__subtitle {
+            font-size: 17px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 24px;
+        }
+    }
+    .catalog {
+        &__tab {
+            font-size: 9px;
+        }
+    }
+    .footer {
+        &__info {
+            padding: 20px 10px;
+        }
+        &__phone {
+            font-size: 18px;
+        }
+        &__social-item {
+            margin: 0 4px;
+        }
+    }
+    .feed {
+        &__text {
+            padding: 0;
+            margin-left: 10px;
+        }
+        img {
+            width: 140px;
+            height: 140px;
+
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+    .carousel {
+        padding: 64px 0;
+        &__inner{
+            width: 90%;
+            img {
+                width: 100%;
+            }
+        }
+        .slick-prev, .slick-next  {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -30px;
+            img {
+                width: 23px;
+                height: 40px;
+            }
+        }
+        .slick-next  {
+            right: -27px;
+            left: auto;
+            padding: 0;
+
+        }
+    }
+    .button {
+        &_main {
+            width: 280px;
+        }
+    }
+}
+@media (max-width:320px){
+    .container {
+        max-width: 242px;
+        margin: 0 23px;
+    }
+    .button {
+        &_main {
+            width: 270px;
+        }
+    }
+    .feed {
+        &-form {
+            width: 250px;
+        }
+        img{
+            width: 130px;
+            height: 130px;
+        }
+        &__text {
+            margin-left: 7px;
+            padding-right: 0;
+        }
+    }
+    .arrowup {
+        position: fixed;
+        right: 200px;
+    }
+    .advantages {
+        &__subtitle {
+            font-size: 17px;
+        }
+        &__descr {
+            font-size: 11px;
+        }
+        &__item {
+            margin-right: 15px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__icons {
+            width: 250px;
+        }
+        &__header{
+            font-size: 30px;
+        }
+        &__icon {
+            margin-left: 15px;
+        }
+    }
+    .header {
+        &__logo {
+            img {
+                width: 131%;
+            }
+        }
+        &__phone {
+            font-size: 11px;
+        }
+        &__official {
+            font-size: 9px;
+            span {
+                font-size: 9px;
+            }
+        }
+    }
+    .catalog {
+        &__tab {
+            font-size: 7px;
+        }
+    }
+    .footer {
+        &__info {
+            padding: 12px 12px;
+            width: 63%;
+        }
+    }
+    .carousel {
+        &__inner{
+            width: 90%;
+            margin: 0 15px;
+            img {
+                width: 100%;
+            }
+        }
+        .slick-prev, .slick-next  {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -46px;
+            img {
+                width: 50px;
+                height: 40px;
+            }
+        }
+        .slick-next  {
+            right: -64px;
+            left: auto;
+        }
+}
+}
